@@ -1,0 +1,26 @@
+@media(max-width:1440px){
+    .cuotas{
+        background-color: #71ecff;
+        p{
+            text-align: center;
+        }
+    }
+    .color-body{
+    background-color: #db59db;
+    }
+    .color-footer{
+        background-color: #FBEAFF;
+        @include grid(repeat(1.1fr)/repeat(3,1fr),center,center);
+        grid-template-areas: 
+        "item1 item2 item3"
+        ;
+        height: 6em;
+    }
+    .boton{
+        background-color: rgba(128, 128, 128, 0.114);
+    }
+    .boton:hover{
+        background-color: rgba(15, 191, 15, 0.361);
+        width: 100px;
+    }
+}

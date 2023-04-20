@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="fondo-body">
+    <header>
+        <fieldset class="color-body">
+            <fieldset class="cuotas">
+                <p>12 CUOTAS SIN INTERES - ACEPTAMOS TODOS LOS BANCOS</p>
+            </fieldset>
+            <div class="edit-grid">
+                <div class="logo">
+                    <img src="./assets/img/logo.png"alt="logo-principal">
+                </div>
+                <ul class="navbar">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./pages/palos-bolsos.html">Productos</a></li>
+                    <li><a href="./pages/sale.html">Sale</a></li>
+                </ul>
+                <form action="buscar" class="search">
+                    <input type="search" id="buscar" placeholder="Buscar">
+                </form>
+                <div class="logcar">
+                    <a href="./pages/login.html" target="_blank" ><img src="./assets/img/login.png" alt="login"></a>
+                    <a href=""><img src="./assets/img/carrito.png" alt="carrito"></a>
+                </div>
+            </div>
+        </fieldset>
+    </header>
+    <main>
+        <form action="">
+            <fieldset class="opciones">
+                <div class="precios">
+                    <p>Precios</p>
+                    <label for="desde"></label>
+                    <input type="text" id="desde" placeholder="desde">
+                    <label for="hasta"></label>
+                    <input type="text" id="hasta" placeholder="hasta">
+                </div>
+                <div class="talle">
+                    <p>Talle</p>
+                    <label for="talle"></label>
+                    <input type="text" id="talle">
+                </div>
+                <div class="marcas">
+                    <p>Marcas</p>
+                    <label for="marcas"></label>
+                    <input type="text" id="marcas">
+                </div>
+                <div class="color">
+                    <p>Color</p>
+                    <label for="color"></label>
+                    <input type="text" id="color">
+                </div>
+            </fieldset> 
+        </form>
+        <section>
+            <h1 class="texto-h1">Nuevos productos</h1>
+            <section class="card">
+                <div class="vlack">
+                    <img src="./assets/img/palovlack.jpg" alt="palo vlack negro y blanco">
+                    <div class="texto-main">
+                        <p>Vlack Emuli %100 carbono</p>
+                        <button class="boton"><a href="">$85.000</a></button>
+                    </div>
+                </div>
+                <div class="simbra">
+                    <img src="./assets/img/palosimbra.jpg" alt="palo simbra rojo y negro">
+                    <div class="texto-main">
+                        <p>Simbra Lowbow %100 carbono</p>
+                        <button class="boton"><a href="">$70.000</a></button>
+                    </div>
+                </div>
+                <div class="brabo">
+                    <img src="./assets/img/palobrabo.jpg" alt="palo brabo verde">
+                    <div class="texto-main">
+                        <p>Brabo Midlow %100 carbono</p>
+                        <button class="boton"><a href="">$90.000</a></button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <fieldset class="color-footer">
+                <p class="item1">Calle falsa 1345 entre Directorio y Emilio Mitre</p>
+                <p class="item2">Para dudas o reclamos 11-2463-5897</p>
+            <div class="item3">
+                <p>Dejanos tu mail para recibir notificaciones</p>
+            <label for="mail"></label>
+            <input type="email" id="mail" placeholder="email" >
+            <input type="submit">
+            </div>
+        </fieldset>
+    </footer>
+</body>
+</html>

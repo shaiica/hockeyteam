@@ -1,0 +1,8 @@
+.color-footer{
+    background-color: aquamarine;
+    @include grid(repeat(1.1fr)/repeat(3,1fr),center,center);
+    grid-template-areas: 
+    "item1 item2 item3"
+    ;
+    height: 6em;
+}

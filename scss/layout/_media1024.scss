@@ -1,0 +1,33 @@
+@media(max-width:1024px){
+    .cuotas{
+        background-color: #adeb84;
+        p{
+            text-align: center;
+        }
+    }
+    .opciones{
+        width: 100%;
+        height: 100px;
+        @include grid(repeat(2,1fr)/repeat(4,1fr), none, none);
+        grid-template-areas: 
+        "precios talle marcas color"
+        "precios talle marcas color"
+        ;
+    }
+    .color-footer{
+        background-color: #a769b5;
+        @include grid(repeat(1.1fr)/repeat(3,1fr),center,center);
+        grid-template-areas: 
+        "item1 item2 item3"
+        ;
+        height: 11em;
+    }
+    .boton{
+        background-color: rgba(128, 128, 128, 0.114);
+    }
+    .boton:hover{
+        background-color: rgba(15, 191, 15, 0.361);
+        width: 100px;
+    }
+
+}

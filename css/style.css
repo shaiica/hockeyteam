@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-body {
+  background-color: rgb(125, 221, 221);
+}
+
+.fondo-body {
+  background-color: lavender;
+}
+
+.color-body {
+  background-color: rgb(241, 146, 241);
+}
+
+.logo img {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.edit-grid {
+  width: 100%;
+  display: grid;
+  grid-template: repeat(1, 1fr)/repeat(6, 1fr);
+  align-items: center;
+  justify-items: none;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  gap: 80px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.cuotas {
+  background-color: lightgreen;
+}
+.cuotas p {
+  text-align: center;
+}
+
+.logcar {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+}
+
+.search {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: center;
+}
+
+.opciones {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+  align-items: none;
+  justify-items: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texto-h1 {
+  text-align: center;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  width: 100%;
+  height: 50vh;
+}
+.card img {
+  border-radius: 20px;
+}
+.card .texto-main {
+  text-align: center;
+}
+
+.vlack:hover {
+  transform: scale(1.1);
+}
+
+.simbra:hover {
+  transform: scale(1.1);
+}
+
+.brabo:hover {
+  transform: scale(1.1);
+}
+
+.opciones {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+  align-items: none;
+  justify-items: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texto-h2 {
+  text-align: center;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  width: 100%;
+  height: 50vh;
+}
+.card img {
+  border-radius: 20px;
+}
+.card .texto-main {
+  text-align: center;
+}
+
+.campera:hover {
+  transform: scale(1.1);
+}
+
+.termica:hover {
+  transform: scale(1.1);
+}
+
+.calza:hover {
+  transform: scale(1.1);
+}
+
+.botines:hover {
+  transform: scale(1.1);
+}
+
+.canilleras:hover {
+  transform: scale(1.1);
+}
+
+.medias:hover {
+  transform: scale(1.1);
+}
+
+.opciones {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+  align-items: none;
+  justify-items: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texto-h2 {
+  text-align: center;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  width: 100%;
+  height: 50vh;
+}
+.card img {
+  border-radius: 20px;
+}
+.card .texto-main {
+  text-align: center;
+}
+
+.guante:hover {
+  transform: scale(1.1);
+}
+
+.mascara:hover {
+  transform: scale(1.1);
+}
+
+.canilleras:hover {
+  transform: scale(1.1);
+}
+
+.grip:hover {
+  transform: scale(1.1);
+}
+
+.bocha:hover {
+  transform: scale(1.1);
+}
+
+.opciones {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+  align-items: none;
+  justify-items: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texto-h2 {
+  text-align: center;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  width: 100%;
+  height: 50vh;
+}
+.card img {
+  border-radius: 20px;
+}
+.card .texto-main {
+  text-align: center;
+}
+
+.pollera:hover {
+  transform: scale(1.1);
+}
+
+.remera:hover {
+  transform: scale(1.1);
+}
+
+.camiseta1:hover {
+  transform: scale(1.1);
+}
+
+.camiseta2:hover {
+  transform: scale(1.1);
+}
+
+.opciones {
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(1, 1fr);
+  align-items: none;
+  justify-items: none;
+  gap: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.texto-h2 {
+  text-align: center;
+  height: 50px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  width: 100%;
+  height: 50vh;
+}
+.card img {
+  border-radius: 20px;
+}
+.card .texto-main {
+  text-align: center;
+}
+
+.palo-negro:hover {
+  transform: scale(1.1);
+}
+
+.palo-blanco:hover {
+  transform: scale(1.1);
+}
+
+.bolso-adidas:hover {
+  transform: scale(1.1);
+}
+
+.bolso-rosa:hover {
+  transform: scale(1.1);
+}
+
+.color-footer {
+  background-color: aquamarine;
+  display: grid;
+  grid-template: repeat(1.1fr)/repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "item1 item2 item3";
+  height: 6em;
+}
+
+.boton {
+  background-color: rgba(128, 128, 128, 0.114);
+}
+
+.boton:hover {
+  background-color: rgba(15, 191, 15, 0.361);
+  width: 100px;
+}
+
+@media (max-width: 1440px) {
+  .cuotas {
+    background-color: #71ecff;
+  }
+  .cuotas p {
+    text-align: center;
+  }
+  .color-body {
+    background-color: #db59db;
+  }
+  .color-footer {
+    background-color: #FBEAFF;
+    display: grid;
+    grid-template: repeat(1.1fr)/repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "item1 item2 item3";
+    height: 6em;
+  }
+  .boton {
+    background-color: rgba(128, 128, 128, 0.114);
+  }
+  .boton:hover {
+    background-color: rgba(15, 191, 15, 0.361);
+    width: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .cuotas {
+    background-color: #adeb84;
+  }
+  .cuotas p {
+    text-align: center;
+  }
+  .opciones {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+    align-items: none;
+    justify-items: none;
+    grid-template-areas: "precios talle marcas color" "precios talle marcas color";
+  }
+  .color-footer {
+    background-color: #a769b5;
+    display: grid;
+    grid-template: repeat(1.1fr)/repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "item1 item2 item3";
+    height: 11em;
+  }
+  .boton {
+    background-color: rgba(128, 128, 128, 0.114);
+  }
+  .boton:hover {
+    background-color: rgba(15, 191, 15, 0.361);
+    width: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .cuotas {
+    background-color: #84e8eb;
+  }
+  .cuotas p {
+    text-align: center;
+  }
+  .opciones {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+    align-items: none;
+    justify-items: none;
+    grid-template-areas: "precios talle marcas color" "precios talle marcas color";
+  }
+  .color-footer {
+    background-color: aquamarine;
+    display: grid;
+    grid-template: repeat(1.1fr)/repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "item1 item2 item3";
+    height: 11em;
+    font-size: 85%;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    width: 83vh;
+    height: 16vh;
+  }
+  .color-body {
+    background-color: #AE88EB;
+  }
+  .cuotas {
+    background-color: #588DEA;
+  }
+  .opciones {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+    align-items: none;
+    justify-items: none;
+    grid-template-areas: "precios talle marcas color" "precios talle marcas color";
+  }
+  main {
+    width: 83vh;
+    height: 200vh;
+  }
+  main .vlack {
+    grid-area: vlack;
+    height: 50vh;
+  }
+  main .simbra {
+    grid-area: simbra;
+    height: 50vh;
+  }
+  main .brabo {
+    grid-area: brabo;
+    height: 50vh;
+  }
+  main .card {
+    width: 45rem;
+    height: 100rem;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(1.1fr);
+    grid-template-areas: "vlack" "simbra" "brabo";
+  }
+  footer .color-footer {
+    height: 6em;
+    width: 83vh;
+  }
+}
+@media (max-width: 375px) {
+  .fondo-body {
+    background-color: rgba(137, 213, 164, 0.841);
+  }
+  header .color-body {
+    background-color: #50FBDF;
+  }
+  header .cuotas {
+    background-color: #FAEAFF;
+  }
+  footer .color-footer {
+    background-color: lightblue;
+  }
+  footer .color-footer p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 320px) {
+  main .card {
+    width: 45em;
+  }
+  footer .color-footer {
+    height: 8em;
+    width: 83vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+.fondo-body{
+    background-color: lavender;
+}
+
+.color-body{
+    background-color: rgb(241, 146, 241);
+}
+
+.logo{
+    img{
+        border-radius: 20px;
+        padding: 5px;
+    }
+}
+
+.edit-grid{
+    width: 100%;
+    @include grid(repeat(1,1fr)/repeat(6,1fr),center,none);
+}
+
+.navbar{
+    list-style: none;
+    @include flex(center, none);
+    @include gap(80px);
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.cuotas{
+    background-color: lightgreen;
+    p{
+        text-align: center;
+    }
+}
+
+.logcar{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}
+
+.search{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}

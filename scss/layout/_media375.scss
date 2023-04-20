@@ -1,0 +1,21 @@
+@media(max-width:375px){
+    .fondo-body{
+        background-color: rgba(137, 213, 164, 0.841);
+    }
+    header{
+        .color-body{
+            background-color: #50FBDF;
+        }
+        .cuotas{
+            background-color: #FAEAFF;
+        }
+    }
+    footer{
+        .color-footer{
+            background-color: lightblue;
+            p{
+                font-size: 1em;
+            }
+        }
+    }
+}

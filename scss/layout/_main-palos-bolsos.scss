@@ -1,0 +1,35 @@
+.opciones{
+    @include grid(repeat(4,1fr)/repeat(1,1fr),none,none);
+    @include gap(10px);
+    width: 100%;
+    font-size: 20px;
+}
+
+.texto-h2{
+    text-align: center;
+    height: 50px;
+}
+
+.card{
+    @include flex(space-evenly, none);
+    width: 100%;
+    height: 50vh;
+    img{
+        border-radius: 20px;
+    }
+    .texto-main{
+        text-align: center;
+    }
+}
+.palo-negro:hover{
+    transform: scale(1.1);
+}
+.palo-blanco:hover{
+    transform: scale(1.1);
+}
+.bolso-adidas:hover{
+    transform: scale(1.1);
+}
+.bolso-rosa:hover{
+    transform: scale(1.1);
+}

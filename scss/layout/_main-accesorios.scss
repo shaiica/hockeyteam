@@ -1,0 +1,38 @@
+.opciones{
+    @include grid(repeat(4,1fr)/repeat(1,1fr),none,none);
+    @include gap(10px);
+    width: 100%;
+    font-size: 20px;
+}
+
+.texto-h2{
+    text-align: center;
+    height: 50px;
+}
+
+.card{
+    @include flex(space-evenly, none);
+    width: 100%;
+    height: 50vh;
+    img{
+        border-radius: 20px;
+    }
+    .texto-main{
+        text-align: center;
+    }
+}
+.guante:hover{
+    transform: scale(1.1);
+}
+.mascara:hover{
+    transform: scale(1.1);
+}
+.canilleras:hover{
+    transform: scale(1.1);
+}
+.grip:hover{
+    transform: scale(1.1);
+}
+.bocha:hover{
+    transform: scale(1.1);
+}

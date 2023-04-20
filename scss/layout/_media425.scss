@@ -1,0 +1,56 @@
+@media(max-width:425px){
+    header{
+        width: 83vh;
+        height: 16vh;
+    }
+    .color-body{
+        background-color: #AE88EB;
+    }
+    .cuotas{
+        background-color: #588DEA;
+    }
+    .opciones{
+        width: 100%;
+        height: 100px;
+        @include grid(repeat(2,1fr)/repeat(4,1fr), none, none);
+        grid-template-areas: 
+        "precios talle marcas color"
+        "precios talle marcas color"
+        ;
+    }
+
+    main{
+        width: 83vh;
+        height: 200vh;
+        .vlack{
+            grid-area: vlack;
+            height: 50vh;
+        }
+        .simbra{
+            grid-area: simbra;
+            height: 50vh;
+        }
+        .brabo{
+            grid-area: brabo;
+            height: 50vh;
+        }
+        .card{
+            width: 45rem;
+            height: 100rem;
+            display: grid;
+            grid-template: repeat(3,1fr)/repeat(1.1fr);
+            grid-template-areas:  
+            "vlack"
+            "simbra"
+            "brabo"
+            ;
+        }
+    }
+
+    footer{
+        .color-footer{
+            height: 6em;
+            width: 83vh; 
+        }
+    }
+}

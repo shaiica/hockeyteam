@@ -1,0 +1,41 @@
+.opciones{
+    @include grid(repeat(4,1fr)/repeat(1,1fr),none,none);
+    @include gap(10px);
+    width: 100%;
+    font-size: 20px;
+}
+
+.texto-h2{
+    text-align: center;
+    height: 50px;
+}
+
+.card{
+    @include flex(space-evenly, none);
+    width: 100%;
+    height: 50vh;
+    img{
+        border-radius: 20px;
+    }
+    .texto-main{
+        text-align: center;
+    }
+}
+.campera:hover{
+    transform: scale(1.1);
+}
+.termica:hover{
+    transform: scale(1.1);
+}
+.calza:hover{
+    transform: scale(1.1);
+}
+.botines:hover{
+    transform: scale(1.1);
+}
+.canilleras:hover{
+    transform: scale(1.1);
+}
+.medias:hover{
+    transform: scale(1.1);
+}

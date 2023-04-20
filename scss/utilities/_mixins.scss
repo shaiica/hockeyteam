@@ -1,0 +1,16 @@
+@mixin grid($template, $align, $justify){
+    display: grid;
+    grid-template:$template;
+    align-items: $align;
+    justify-items: $justify;
+}
+
+@mixin flex($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin gap($gap){
+    gap: $gap;
+}
